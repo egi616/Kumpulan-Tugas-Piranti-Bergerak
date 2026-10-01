@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
-  const Home({super.key});
+class Profile extends StatefulWidget {
+  const Profile({super.key});
 
   @override
-  State<Home> createState() => _HomeState();
+  State<Profile> createState() => _HomeState();
 }
 
-class _HomeState extends State<Home> {
+class _HomeState extends State<Profile> {
   
   bool tampilkanNama = false;
 

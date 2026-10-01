@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_pertemuan1/pages/home.dart';
+import 'package:tugas_pertemuan1/pages/profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Profile(),
     );
   }
 }
